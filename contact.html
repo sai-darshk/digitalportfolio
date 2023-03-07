@@ -30,7 +30,24 @@
   </header>  
   <main>
     <section class="fade-in" id="home">
-    <h1>Under Construction</h1>
+      <section class="request">
+        <h1 style="text-align: center; margin-top: 30px;font-size:7ch;">Contact Form</h1>
+        <h5 style="text-align: center; margin-top: 30px;">Email: saidarshk@gmail.com</h5>
+        <h5 style="text-align: center; margin-top: 30px;">Phone Number: 678-549-6899 </h5>
+        <button class="linkdinhome">LinkedIn</button>
+        <form action="process-form.php" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="text">Text:</label>
+          <textarea id="text" name="text" rows="5" required></textarea>
+    
+          <input type="submit" value="Submit">
+        </form>
+      </section>
     </section>
   </main>
 </body>

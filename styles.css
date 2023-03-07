@@ -85,6 +85,11 @@ nav {
   }
 }
 
+.request{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 /* Define the fade-in class for the text */
 .fade-in {
   opacity: 0;
@@ -120,5 +125,45 @@ nav {
   font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #535353;
+  color: #ffffff;
 }
 
