@@ -14,6 +14,7 @@ nav {
   background-color: #ffffff;
   color: #000000;
   padding: 20px;
+  position: f;
 }
 
 .logo a {
@@ -83,3 +84,41 @@ nav {
     transition: opacity 0.5s ease-in;
   }
 }
+
+/* Define the fade-in class for the text */
+.fade-in {
+  opacity: 0;
+}
+
+/* Define the fade-in-animation class for the animation */
+.fade-in-animation {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+.linkdinhome {
+  background-color: #0072b1; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.resumehome {
+  background-color: #ffffff; /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
